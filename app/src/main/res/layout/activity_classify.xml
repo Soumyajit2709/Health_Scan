@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Classify">
+
+    <ImageView
+        android:id="@+id/selected_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:id="@+id/classify_image"
+        android:layout_width="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/selected_image"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:text="Click to Detect!" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/classify_image"
+        android:background="@color/purple_700"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="Back" />
+
+    <LinearLayout
+        android:id="@+id/labels"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/back_button"
+        android:layout_gravity="center"
+        android:layout_marginBottom="44dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelText"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text="Disease Status"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label1"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

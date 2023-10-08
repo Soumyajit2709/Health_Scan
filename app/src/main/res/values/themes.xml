@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CataractDetector" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Background color for the app screen -->
+    <item name="android:windowBackground">#FFBB86FC</item>
+
+    <!-- Toolbar and status bar color -->
+    <item name="colorPrimary">#531987</item>
+    <item name="colorPrimaryDark">#531987</item> <!-- A darker version of the background color -->
+    <item name="colorAccent">#FFBB86FC</item>
+    </style>
+
+</resources>
