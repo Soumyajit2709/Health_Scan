@@ -26,8 +26,8 @@ Early Detection: Cataracts are one of the leading causes of vision impairment an
 Accessibility: The user-friendly design and real-time results make cataract screening convenient and accessible to a wide audience, including those in remote or underserved areas.
 
 <div align="center">
-  <a href="[images/Video.mp4](https://youtu.be/k15icHzm15M)">
-    <img src="[images/Video.mp4](https://youtu.be/k15icHzm15M)" alt="Watch the video">
+  <a href="https://www.youtube.com/watch?v=k15icHzm15M">
+    <img src="https://img.youtube.com/vi/k15icHzm15M/0.jpg" alt="Watch the video">
   </a>
 </div>
 
